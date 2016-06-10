@@ -5,6 +5,10 @@
 =================================================
 */
 
+.pageIcon {
+	max-width: 50px;
+}
+
 a:hover.normalBorder {
 	border-width: 1px;
 }

@@ -5,6 +5,30 @@
 =================================================
 */
 
+a:hover.normalBorder {
+	border-width: 1px;
+}
+
+.noSpace {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.spacedOut {
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.verticalSpacing {
+	/*
+	Find a way to give some space without spilling over to the next line
+	*/	
+	background-color: gray;
+	border-color: black;
+	color: white;
+	font-size: 3em;
+}
+
 .gameIcon {
 	max-height: 350px;
 	max-width: 350px;
@@ -54,8 +78,8 @@ h1{
 
 body {	
 	background-color: #bdc3c7;
-	padding-top: 0px;
-	margin-top: 0px; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px; 
 	font-family: 'Work Sans', sans-serif;
 }
 

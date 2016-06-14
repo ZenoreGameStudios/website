@@ -53,9 +53,14 @@ a:hover.normalBorder {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	min-height: 100px;
-	max-height: 120px;
+	/*max-height: 120px;*/
 	border-color: #2c3e50;
 }
+
+#imageTitle {
+	max-height: 120px;
+}
+
 .verticalAlign {
 	padding-top: 30px;
 }

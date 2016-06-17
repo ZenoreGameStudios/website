@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <!-- 
 =================================================
 	Page designed and created by David Oliván		
@@ -5,7 +7,6 @@
 =================================================
 -->
 
-<!DOCTYPE html>
 <html lang="es">
 <head>
 
@@ -18,6 +19,9 @@
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 
+	<script type="text/javascript" src="lib/jquery.bxslider.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/jquery.bxslider.css">
+
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
 
 	<link rel="icon" href="images/favicon.png" />
@@ -27,7 +31,7 @@
 <body>
 	<div class="page-header text-center">
 <!-- Spanish version of the Navbar -->
-		<img src="images/titleImage.png" class="img-responsive center-block" id="imageTitle">
+		<a href="index.html"><img src="images/titleImage.png" class="img-responsive center-block" id="imageTitle" alt="Principal"></a>
 		<div class="container" style="padding: 25px 0px 10px 0px;">
 <!-- Big navbar -->
 			<div class="btn-toolbar pull-right hidden-xs" role="toolbar" aria-label="...">
@@ -73,7 +77,27 @@
 					<h3 class="text-center"><strong style="background-color: #2c3e50;border-color: #f1c40f;color: #f1c40f;">¡Bienvenidos!</strong></h3>
 				</div>
 			</div>
+
+			<!--
 			<img src="images/cover01.png" class="img-responsive center-block">
+			-->
+			<ul class="bxslider center-block">
+				<li class=" center-block"><img class=" center-block" src="images/cover01.png" title="Programando CodeBreaker" /></li>
+				<li class=" center-block"><img class=" center-block" src="images/cover02.png" title="Diagrama de clases" /></li>
+				<li class=" center-block"><img class=" center-block" src="images/cover03.png" title="Generador de nombres" /></li>
+				<li class=" center-block"><img class=" center-block" src="images/cover04.png" title="Probando el Generador" /></li>
+				<li class=" center-block"><img class=" center-block" src="images/cover05.png" title="Código, código..." /></li>
+			</ul>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$('.bxslider').bxSlider({
+						auto: true,
+						randomStart: true,
+						captions: true
+					});
+				});
+			</script>
+
 			<div class="row ">
 				<div class="col-xs-12">
 					<p class="text-center">

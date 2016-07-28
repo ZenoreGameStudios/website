@@ -40,8 +40,9 @@ Last update July 2016
 			<div class="btn-toolbar pull-right hidden-xs" role="toolbar" aria-label="...">
 				<div class="btn-group noSpace " role="group" aria-label="...">
 					<a type="button" class="btn btn-info normalBorder" href="index.html">Principal</a>
-					<a type="button" class="btn btn-primary normalBorder" href="#">Proyectos</a>
-					<a type="button" class="btn btn-primary normalBorder" href="#">Nosotros</a>
+					<a type="button" class="btn btn-primary normalBorder" href="projects.html">Proyectos</a>
+					<a type="button" class="btn btn-primary normalBorder" href="about.html">Nosotros</a>
+					<a type="button" class="btn btn-primary normalBorder" href="contact.html">Contacta</a>
 					<a type="button" class="btn btn-primary normalBorder" href="feedback.html">Opinión</a>
 				</div>
 				<div class="btn-group noSpace" role="group" aria-label="...">
@@ -60,8 +61,9 @@ Last update July 2016
 				</button>
 				<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1" style="padding-top: 10px;">
 					<li><a class="normalBorder" href="index.html">Principal</a></li>
-					<li><a class="normalBorder" href="#">Proyectos</a></li>
-					<li><a class="normalBorder" href="#">Nosotros</a></li>
+					<li><a class="normalBorder" href="projects.html">Proyectos</a></li>
+					<li><a class="normalBorder" href="about.html">Nosotros</a></li>
+					<li><a class="normalBorder" href="contact.html">Contacta</a></li>
 					<li><a class="normalBorder" href="feedback.html">Opinión</a></li>
 					<li class="dropdown-header">Idioma/Language</li>
 					<li><a class="normalBorder" href="en/index.html">English</a></li>
@@ -75,16 +77,6 @@ Last update July 2016
 
 	<div class="jumbotron center-block">		
 		<div class="container">
-		<!--
-			<div class="row">
-				<div class="col-xs-12">
-					<h3 class="text-center"><strong style="background-color: #2c3e50;border-color: #f1c40f;color: #f1c40f;">¡Bienvenidos!</strong></h3>
-				</div>
-			</div>
-		-->
-			<!--
-			<img src="images/cover01.png" class="img-responsive center-block">
-			-->
 			<ul class="bxslider center-block">
 				<li class="center-block"><img class=" center-block" src="images/cover01.png" title="Programando CodeBreaker" /></li>
 				<li class="center-block"><img class=" center-block" src="images/cover02.png" title="Diagrama de clases" /></li>
@@ -118,33 +110,54 @@ Last update July 2016
 	
 	<div class="container center-block mainBody">
 		<div class="row">
+			<div class="col-xs-12 col-centered">
+				<div class="thumbnail noticias">
+					<h3 class="text-center">Últimas noticias</h3>
+					<div class="thumbnail" style="border-color: #2c3e50; border-width: 3px;">
+						<h4><strong>Noticias de verano</strong> <em style="font-size: .7em;">25 de Julio 2016</em></h4>
+						<hr class="divisionLine">
+						<p>
+							&nbsp;Éste verano tenemos varios proyectos. En primer lugar vamos a trabajar duro para tener una página web completa y totalmente funcional para principios o mediados de Agosto. Según escribo estas líneas, la página está cada día más cerca de ser 'enviada' <em>online</em>.
+						</p>
+						<p>
+							&nbsp;En segundo lugar estamos trabajando en un nuevo juego, y en una nueva versión del juego que ya hemos publicado. Para leer más sobre ésto, navegad a <a href="projects.html">Proyectos</a> y consultad la sección de "Proyectos en desarrollo".
+						</p>
+						<p>
+							&nbsp;En tercer lugar estamos trabajando para conseguir una cuenta de desarrolladores con Google, que nos será absolutamente necesaria para publicar nuestros juegos a través de Google Play, como es nuestra intención a partir de ahora, debido a los problemas de distribución con los que nos hemos encontrado hasta la fecha.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="divisionLine">
+		<div class="row">
 			<div class="col-xs-12 col-md-6 col-centered">
-			<div class="thumbnail">
-				<h3 class="text-center">CodeBreaker</h3>
-				<p>
-					Éste es nuestro primer juego. Es un juego para Android. 
-					Para probarlo, haz click en el icono morado. 
-					Una vez se descargue, dale click, instala el juego y disfrutalo.
-				</p>
-				<p class="text-center">
-					<a href="https://github.com/david-olivan/zenore/releases/download/v0.1/CodeBreaker.v0.1.apk" class="btn btn-success" role="button">Descargar</a>
-				</p>
-				<p>
-					¡Muchas gracias por probar nuestro juego!
-				</p>
-				<p style="font-size: 0.75em;">
-					<em>Puede que necesites activar la opción de "Permitir la instalación de aplicaciones de otras fuentes", que encontrarás en Ajustes/Aplicaciones, para que tu móvil te deje instalar nuestro juego.</em>
-				</p>
-			</div>	
+				<div class="thumbnail" style="min-height: 275px;">
+					<h3 class="text-center">CodeBreaker</h3>
+					<p>
+						Éste es nuestro primer juego. Es un juego para Android. 
+						Para probarlo, haz click en el botón de 'Descarga'.
+						Una vez se descargue, dale click, instala el juego y disfrutalo.
+					</p>
+					<p class="text-center">
+						<a href="https://github.com/david-olivan/zenore/releases/download/v0.1/CodeBreaker.v0.1.apk" class="btn btn-success" role="button">Descargar</a>
+					</p>
+					<p>
+						¡Muchas gracias por probar nuestro juego!
+					</p>
+					<p style="font-size: 0.75em;">
+						<em>Puede que necesites activar la opción de "Permitir la instalación de aplicaciones de otras fuentes", que encontrarás en Ajustes/Aplicaciones, para que tu móvil te deje instalar nuestro juego.</em>
+					</p>
+				</div>	
 			</div>
 			<div class="col-xs-12 col-md-6 col-centered">
-			<div class="thumbnail">
-				<h3 class="text-center">Mándanos tu opinión</h3>
-				<p>Tu opinión es muy valiosa para nosotros. Por favor, tómate unos momentos para rellenar nuestra encuesta y hacernos llegar tus opiniones y comentarios.</p>
-				<p class="text-center">
-					<a href="feedback.html" class="btn btn-primary" role="button">Tu Opinión</a>
-				</p>			
-			</div>
+				<div class="thumbnail" style="min-height: 275px;">
+					<h3 class="text-center">Mándanos tu opinión</h3>
+					<p>Tu opinión es muy valiosa para nosotros. Por favor, tómate unos momentos para rellenar nuestra encuesta y hacernos llegar tus opiniones y comentarios.</p>
+					<p class="text-center">
+						<a href="feedback.html" class="btn btn-primary" role="button">Tu Opinión</a>
+					</p>			
+				</div>
 			</div>	
 		</div>		
 	</div>

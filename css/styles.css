@@ -5,6 +5,14 @@
 =================================================
 */
 
+.thumbnail.noticias {
+	padding: 20px;
+}
+
+.sameSize {
+	min-height: 175px;
+}
+
 .pageIcon {
 	max-width: 50px;
 }
